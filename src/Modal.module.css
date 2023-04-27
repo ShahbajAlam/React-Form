@@ -1,0 +1,47 @@
+.modal {
+    width: 40%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 2rem;
+    z-index: 5;
+}
+
+.modal h2 {
+    text-align: center;
+}
+
+.modal h4 {
+    font-size: 1.4rem;
+    margin: 2rem 0 1rem;
+}
+
+li {
+    list-style: none;
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.modal button {
+    width: 100%;
+    margin-top: 2rem;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    transition-duration: 200ms;
+    background-color: black;
+    color: aliceblue;
+}
+
+.modal button:hover {
+    background-color: green;
+}
